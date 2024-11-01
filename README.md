@@ -5,8 +5,6 @@
 Написан параметризованный тест, который проверяет: на странице каждый вопрос можно раскрыть и получить на него определенный ответ. Представлены 3 варианта.
 
 Исходный код:
-public class YandexTest {
-
 WebDriver driver;
 @BeforeEach
 public void setup() {
@@ -21,7 +19,6 @@ public void tearDown() {
 public void allQuestionsHaveAnswerText() {
     driver.get("https://qa-scooter.praktikum-services.ru/");
             // Здесь напиши логику открытия вопросов и проверки ответов
-}
 }
 
 resources/questions.csv:
